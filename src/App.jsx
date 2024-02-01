@@ -11,6 +11,8 @@
  *
  */
 
+import Header from "./Header";
+
 export default function App() {
-  return <p className="text-red-500 text-4xl underline">Hello World</p>;
+  return <Header />;
 }
