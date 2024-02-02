@@ -11,8 +11,16 @@
  *
  */
 
+import Footer from "./Footer";
 import Header from "./Header";
+import MovieList from "./MovieList";
 
 export default function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <MovieList />
+      <Footer />
+    </>
+  );
 }
